@@ -35,7 +35,7 @@ employees report to
 # Important Links
 
 - Link to Walkthrough Video
-- [Walkthrough Video](https://watch.screencastify.com/v/PKtP9rb9w1xEWeah15lC)
+- [Walkthrough Video](https://watch.screencastify.com/v/iaYvCyAjW4fWDgrJ7cCs)
 
 # Screenshots of Application 
 - Screenshots to demonstrate purpose of application and final product. 
