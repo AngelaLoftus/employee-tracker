@@ -15,6 +15,7 @@ inquirer.prompt([
             "Add a role", 
             "Add an employee", 
             "Update an employee's role",
+            "Exit"
             //bonus
             // "Update employee's manager",
             // "View employees by manager",
@@ -50,6 +51,8 @@ switch(answers.choice) {
     case "Update an employee's role":
         updateEmployeeRole();
         break;
+    case "Exit":
+        exit();
 //     case "View all employees by department":
 //         viewEmployeesByDepartment();
 //         break;
@@ -65,6 +68,10 @@ switch(answers.choice) {
 })
 }
 
+function exit() {
+    console.log("Goodbye.");
+    process.exit();
+}
 userChoice( );
 
 function viewEmployees() {
@@ -123,8 +130,7 @@ function addDepartment() {
                 console.log("Success! Department added to the database.");
                 viewDepartments();
             }
-        })
-        userChoice();
+        });
 })
 }
 
@@ -167,11 +173,6 @@ function addEmployee() {
         viewEmployees();
     });
 };
-// //function add department
-// INSERT INTO deparment (name)
-//     -> VALUE ("Marketing")
-//     -> ;
-//function add role
 
 function addRole() {
     inquirer.prompt([
@@ -206,7 +207,6 @@ function addRole() {
                     viewRoles()
                     };
                 })
-                userChoice();
         })
 }    
 
