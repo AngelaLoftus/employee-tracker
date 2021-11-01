@@ -40,9 +40,9 @@ employees report to
 # Screenshots of Application 
 - Screenshots to demonstrate purpose of application and final product. 
 
-![Screenshot]( ) 
-![Screenshot]( ) 
-![Screenshot]( )
+![Screenshot]( https://github.com/AngelaLoftus/employee-tracker/blob/main/images/Screenshot1%20.jpg) 
+![Screenshot]( https://github.com/AngelaLoftus/employee-tracker/blob/main/images/Screenshot2.jpg) 
+![Screenshot]( https://github.com/AngelaLoftus/employee-tracker/blob/main/images/Screenshot3.jpg)
 
 # Contact Me
 - Name: Angela Loftus
